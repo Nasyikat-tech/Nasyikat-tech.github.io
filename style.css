@@ -1,0 +1,63 @@
+:root {
+  --accent: #174180;
+  --accent-light: #3764a7;
+  --pure-white: #fff;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+  margin: 0;
+  color: var(--accent);
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  background-color: var(--accent);
+}
+.header a {
+  color: var(--pure-white);
+  text-decoration: none;
+}
+.header-nav {
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.header-logo {
+  width: 20%;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.header-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-menu-link {
+  text-transform: uppercase;
+  padding: 15px 15px;
+  font-size: 16px;
+  line-height: 16px;
+}
+.header-menu-link:hover {
+  background-color: var(--accent-light);
+  transition: background-color 0.3s;
+}
