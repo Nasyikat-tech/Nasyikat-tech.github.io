@@ -25,6 +25,13 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+.section-title {
+  background-color: var(--accent-light);
+  text-transform: uppercase;
+  margin: 40px 0;
+  text-align: center;
+  color: var(--pure-white);
+}
 .header {
   background-color: var(--accent);
 }
@@ -60,4 +67,66 @@ body {
 .header-menu-link:hover {
   background-color: var(--accent-light);
   transition: background-color 0.3s;
+}
+.intro-inner {
+  display: flex;
+  gap: 150px;
+  text-align: center;
+  padding: 50px 0;
+}
+.intro-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  list-style: none;
+}
+.contacts p {
+  margin: 2px 0 0 0;
+}
+.skills {
+  margin: 100px auto;
+}
+.skills-lists {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+.languages {
+  margin: 70px;
+}
+.languages-lists {
+  margin-left: 470px;
+}
+.code-title {
+  text-align: center;
+}
+.code-item {
+  width: 400px;
+  background-color: var(--accent);
+  color: var(--pure-white);
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.education {
+  margin-top: 100px;
+}
+.footer {
+  min-height: 100px;
+  text-align: center;
+  background-color: var(--accent);
+  justify-content: center;
+  margin-top: 100px;
+  color: var(--pure-white);
+}
+.footer p {
+  padding-top: 20px;
+}
+.footer a {
+  color: var(--pure-white);
 }
