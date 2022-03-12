@@ -39,6 +39,7 @@ body {
   color: var(--pure-white);
   text-decoration: none;
 }
+
 .header-nav {
   min-height: 50px;
   display: flex;
@@ -129,4 +130,56 @@ body {
 }
 .footer a {
   color: var(--pure-white);
+}
+.menu {
+  display: none;
+}
+@media (max-width: 768px) {
+  body {
+    background: gainsboro;
+    font-size: 13px;
+  }
+  .container {
+    width: 100%;
+  }
+  .header-logo {
+    font-size: 20px;
+  }
+
+  .menu {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+  }
+  .section-title {
+    font-size: 16px;
+  }
+
+  .header-menu {
+    display: none;
+  }
+  .intro-inner {
+    display: block;
+    width: 100%;
+  }
+  .contacts {
+    display: inline;
+    width: 100%;
+    text-align: center;
+  }
+  .contacts li {
+    margin-bottom: 20px;
+  }
+  .skills-lists {
+    display: block;
+  }
+  .languages-lists {
+    display: inline;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+  }
+  .code-item {
+    width: 100%;
+  }
 }
