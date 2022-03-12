@@ -130,3 +130,49 @@ body {
 .footer a {
   color: var(--pure-white);
 }
+.menu {
+  display: none;
+}
+@media (max-width: 768px) {
+  body {
+    background: gainsboro;
+  }
+  .container {
+    width: 80%;
+  }
+  .menu {
+    display: inline-block;
+    margin-left: 300px;
+  }
+  .header-menu-item {
+    display: none;
+  }
+  .menu-show {
+    background: #000;
+    display: table-column;
+  }
+  .intro-inner {
+    display: block;
+    width: 100%;
+  }
+  .contacts {
+    display: inline;
+    width: 100%;
+    text-align: center;
+  }
+  .contacts li {
+    margin-bottom: 20px;
+  }
+  .skills-lists {
+    display: block;
+  }
+  .languages-lists {
+    display: inline;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+  }
+  .code-item {
+    width: 100%;
+  }
+}
